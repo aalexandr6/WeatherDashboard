@@ -1,5 +1,6 @@
 # Weather Dashboard
 <img src="/images/dash.png">
+
 ## Table of Contents
 - [Description](#project-description)
 - [Installation](#installation)
