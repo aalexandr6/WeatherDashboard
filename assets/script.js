@@ -1,5 +1,5 @@
 // Global Variables 
-var APIkey = "a17e1499228be1f9c294ac18b234c7d7";
+var APIkey = "94becf6ba470613c95a15a73a858c3ff";
 //Weather Variables
 var searchHistoryList = $('#search-history-list');
 var searchCityInput = $("#search-city");
