@@ -46,7 +46,6 @@ $.ajax({
 
 var countryCode = response.sys.country;
 var forecastURL = "https://api.openweathermap.org/data/2.5/forecast?&units=imperial&appid=" + APIkey + "&lat=" + lat +  "&lon=" + lon;
-// AJAX call for 5-day forecast
 $.ajax({
     url: forecastURL,
     method: "GET"
