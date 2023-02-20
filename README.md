@@ -1,5 +1,6 @@
 # Weather Dashboard
-<img src="/images/dash.png">https://aalexandr6.github.io/WeatherDashboard/
+https://aalexandr6.github.io/WeatherDashboard/
+<img src="/images/dash.png">
 ## Table of Contents
 - [Description](#project-description)
 - [Installation](#installation)
