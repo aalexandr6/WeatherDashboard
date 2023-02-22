@@ -121,6 +121,7 @@ searchHistory(value);
 
 });
 // Display and save the search history of cities
+var searchValue = searchCityInput.val().trim();
 function searchHistory(searchValue) {
     if (searchValue) {
     if (cityList.indexOf(searchValue) === -1) {
@@ -141,6 +142,7 @@ weatherContent.removeClass("hide");
 }
 }
 // List the array into the search history sidebar/
+function listArray() {
 searchHistoryList.empty();
     cityList.forEach(function(city){
 var searchHistoryItem = $('<li class="list-group-item city-btn">');
@@ -159,7 +161,7 @@ listArray();
     if (cityList.length !== 0) {
     currentConditionsRequest(cityList[lastIndex]);
     weatherContent.removeClass("hide");
-    }
+}
 }
 }
 //clear history
